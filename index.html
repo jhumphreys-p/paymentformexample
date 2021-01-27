@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Payment form example</title>
+</head>
+<body>
+    <div>
+        <div class="card">
+            <div class="card-header">
+                <h1>Payment form example</h1>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>Some fields are missing</h2>
+    </div>
+    <div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Card #</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="card" name="card#">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="ncard">CVC #</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="cvc" name="CVC#">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Amount</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="amount" name="amount">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">City</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="city" name="city">
+      </div>
+      </div>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Pick a state</option>
+        <option>Limón</option>
+        <option>San José</option>
+        <option>Alajuela</option>
+        <option>Cartago</option>
+        <option>Heredia</option>
+        <option>Puntarenas</option>
+        <option>Guanacaste</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Postal Code</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="postalc" name="postal">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:75px"></textarea>
+      </div>
+    </div>
+    <div>
+        <h3>Add any notes here</h3>
+    </div>
+        <div class="row">
+      <input type="submit" value="Cancel">
+      <input type="submit" value="Send">
+    </div>
+  </form>
+</div>
+</body>
+</html>
